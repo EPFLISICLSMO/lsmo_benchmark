@@ -1,0 +1,19 @@
+# README #
+
+Benchmark tests for LSMO group.
+
+Usage
+0) always pull the latest version 
+1) go into the directory of your code (cp2k, qe, vasp, ...)
+2) copy one of the scripts, renaming it properly:
+index_cluster_codeversion_compiler/module.sh
+e.g.: 01_bellatrix_cp2k-2.6_deprecated-intel.sh
+3) modify the scripts:
+ - change the number of cpusxnode
+ - change the slurm input according to the module you want to load
+ 
+4) run the script
+5) run xx_results.sh to grep the run time
+6) $ git add *
+7) $ git commit -am "comments"
+8) $ git push
