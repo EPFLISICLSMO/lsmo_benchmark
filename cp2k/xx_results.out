@@ -5,6 +5,7 @@
 01_bellatrix_cp2k-2.6_deprecated-intel/ncores_096/slurm-1377257.out:096_cpus 75 seconds
 01_bellatrix_cp2k-2.6_deprecated-intel/ncores_128/slurm-1377258.out:128_cpus 60 seconds
 01_bellatrix_cp2k-2.6_deprecated-intel/ncores_192/slurm-1377259.out:192_cpus 67 seconds
+01_bellatrix_cp2k-2.6_deprecated-intel/ncores_512/slurm-1377261.out:512_cpus 89 seconds
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_008/slurm-1377262.out:008_cpus 294 seconds
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_016/slurm-1377263.out:016_cpus 168 seconds
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_032/slurm-1377264.out:032_cpus 148 seconds
@@ -12,3 +13,5 @@
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_096/slurm-1377266.out:096_cpus 87 seconds
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_128/slurm-1377267.out:128_cpus 76 seconds
 02_bellatrix_cp2k-3.0_stable-gcc/ncores_192/slurm-1377268.out:192_cpus 84 seconds
+02_bellatrix_cp2k-3.0_stable-gcc/ncores_256/slurm-1377269.out:256_cpus 92 seconds
+02_bellatrix_cp2k-3.0_stable-gcc/ncores_512/slurm-1377270.out:512_cpus 186 seconds
