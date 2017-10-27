@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-coresxcpu=16     #to adjust according to the machine
+coresxcpu=28     #to adjust according to the machine
 rm -rf "${0%.*}" #remove pre-existing dir
 mkdir  "${0%.*}" #make a dir with the same name as the executable
 cd "${0%.*}"
@@ -23,8 +23,13 @@ cat > run.slurm << EOF
 #SBATCH --ntasks=$ncores
 #SBATCH --time=00:30:00
 
-source /ssoft/spack/bin/slmodules.sh -r deprecated 
-module load cp2k/2.6.0/intel-15.0.0
+
+source /ssoft/spack/bin/slmodules.sh -r stable             
+ 
+module purge
+module load intel
+module load intel-mpi intel-mkl
+module load cp2k/4.1-mpi
 
 date_start=\$(date +%s)
 srun cp2k.popt -i *.inp -o output.out                 #running command

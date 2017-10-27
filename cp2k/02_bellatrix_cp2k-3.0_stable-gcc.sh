@@ -5,7 +5,7 @@ rm -rf "${0%.*}" #remove pre-existing dir
 mkdir  "${0%.*}" #make a dir with the same name as the executable
 cd "${0%.*}"
 
-for ncores in 8 16 32 64 96 128 192 256 512 
+for ncores in 8 16 32 64 96 128 192 256 
 do
 
 nnodes=$((ncores / coresxcpu))

@@ -1,6 +1,7 @@
 # README #
 
 Benchmark tests for LSMO group.
+(notice: the repository MUST be cloned in the scratch partition of the cluster)
 
 Usage
 0) always pull the latest version 
@@ -9,10 +10,11 @@ Usage
 index_cluster_codeversion_compiler/module.sh
 e.g.: 01_bellatrix_cp2k-2.6_deprecated-intel.sh
 3) modify the scripts:
- - change the number of cpusxnode
- - change the slurm input according to the module you want to load
+ - change the number of cpusxnode according to the cluster
+ - change the slurm input according to the module you want to load 
+   (please keep "module purge" before) 
  
-4) run the script
+4) run the script (in the scratch partition for consistence)
 5) run xx_results.sh to grep the run time
 6) $ git add *
 7) $ git commit -am "comments"
