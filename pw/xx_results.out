@@ -1,0 +1,8 @@
+01_fidis_espreso-6.1_intel-mpi/ncores_008/slurm-308877.out:008_cpus 176 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_016/slurm-308878.out:016_cpus 99 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_032/slurm-308879.out:032_cpus 70 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_064/slurm-308880.out:064_cpus 75 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_096/slurm-308881.out:096_cpus 94 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_128/slurm-308882.out:128_cpus 62 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_192/slurm-308883.out:192_cpus 59 seconds
+01_fidis_espreso-6.1_intel-mpi/ncores_256/slurm-308884.out:256_cpus 66 seconds
