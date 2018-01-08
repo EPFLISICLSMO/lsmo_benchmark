@@ -1,0 +1,4 @@
+daint-gpu(83):ERROR:150: Module 'daint-gpu' conflicts with the currently loaded module(s) 'daint-mc'
+daint-gpu(83):ERROR:102: Tcl command execution failed: conflict daint-mc
+
+128_cpus 47 seconds

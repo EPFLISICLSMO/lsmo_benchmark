@@ -1,0 +1,5 @@
+daint-gpu(83):ERROR:150: Module 'daint-gpu' conflicts with the currently loaded module(s) 'daint-mc'
+daint-gpu(83):ERROR:102: Tcl command execution failed: conflict daint-mc
+
+CP2K(3):ERROR:105: Unable to locate a modulefile for 'CP2K/5.0r18043-CrayGNU-17.08-cuda-8.0'
+256_cpus 49 seconds

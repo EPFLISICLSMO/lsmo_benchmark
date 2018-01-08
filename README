@@ -19,3 +19,7 @@ e.g.: 01_bellatrix_cp2k-2.6_deprecated-intel.sh
 6) $ git add *
 7) $ git commit -am "comments"
 8) $ git push
+
+NOTICE:
+- For certain computers (e.g., Piz Daint) different nodes are available with different speed. Therefore different calculations can be done on diffeent nodes. Constrain the choice of the node-type if you want, but this is not mandatory and therefore the parallelization benchmark time can oscillate because of this.
+
