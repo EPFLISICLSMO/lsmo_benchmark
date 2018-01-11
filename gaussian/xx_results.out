@@ -1,0 +1,12 @@
+01_fidis_g09-D01_ccsd-t/ncores_001/slurm-323179.out:001_cpus 341 seconds
+01_fidis_g09-D01_ccsd-t/ncores_002/slurm-323180.out:002_cpus 198 seconds
+01_fidis_g09-D01_ccsd-t/ncores_004/slurm-323181.out:004_cpus 133 seconds
+01_fidis_g09-D01_ccsd-t/ncores_008/slurm-323182.out:008_cpus 96 seconds
+01_fidis_g09-D01_ccsd-t/ncores_016/slurm-323183.out:016_cpus 81 seconds
+01_fidis_g09-D01_ccsd-t/ncores_028/slurm-323184.out:028_cpus 78 seconds
+02_fidis_g09-D01_pbepbe/ncores_001/slurm-323185.out:001_cpus 69 seconds
+02_fidis_g09-D01_pbepbe/ncores_002/slurm-323186.out:002_cpus 41 seconds
+02_fidis_g09-D01_pbepbe/ncores_004/slurm-323187.out:004_cpus 29 seconds
+02_fidis_g09-D01_pbepbe/ncores_008/slurm-323188.out:008_cpus 22 seconds
+02_fidis_g09-D01_pbepbe/ncores_016/slurm-323189.out:016_cpus 17 seconds
+02_fidis_g09-D01_pbepbe/ncores_028/slurm-323190.out:028_cpus 17 seconds
