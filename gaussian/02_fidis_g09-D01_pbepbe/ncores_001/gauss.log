@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=/ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/g09
  Initial command:
- /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe "/scratch/ongari/lsmo_benchmark/gaussian/02_fidis_g09-D01_pbepbe/ncores_001/Gau-30222.inp" -scrdir="/scratch/ongari/lsmo_benchmark/gaussian/02_fidis_g09-D01_pbepbe/ncores_001/"
- Entering Link 1 = /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe PID=     30223.
+ /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe "/scratch/ongari/lsmo_benchmark/gaussian/02_fidis_g09-D01_pbepbe/ncores_001/Gau-6756.inp" -scrdir="/scratch/ongari/lsmo_benchmark/gaussian/02_fidis_g09-D01_pbepbe/ncores_001/"
+ Entering Link 1 = /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe PID=      6757.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -74,12 +74,12 @@
  
  ******************************************
  Gaussian 09:  ES64L-G09RevD.01 24-Apr-2013
-                11-Jan-2018 
+                28-Mar-2018 
  ******************************************
  %NprocShared=1
  Will use up to    1 processors via shared memory.
  %Chk=gauss.chk
- %Mem=110GB
+ %Mem=50GB
  -------------------
  #n PBEPBE/Def2QZVPP
  -------------------
@@ -295,7 +295,7 @@
  ZZZY=              0.0000 XXYY=            -70.0411 XXZZ=            -69.1325 YYZZ=            -18.0003
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.0000
  N-N= 1.344677104039D+02 E-N=-2.548575497330D+03  KE= 9.577430127546D+02
- 1\1\GINC-F013\SP\RPBEPBE\def2QZVPP\C1H2Cl2\ONGARI\11-Jan-2018\0\\#n PB
+ 1\1\GINC-F403\SP\RPBEPBE\def2QZVPP\C1H2Cl2\ONGARI\28-Mar-2018\0\\#n PB
  EPBE/Def2QZVPP\\Dichloromethane scf\\0,1\C,0,-1.07673,1.09508,0.08555\
  Cl,0,0.70112,1.11024,0.0691\Cl,0,-1.69042,2.22628,-1.14123\H,0,-1.4399
  2,0.0715,-0.14064\H,0,-1.43992,1.40336,1.08746\\Version=ES64L-G09RevD.
@@ -304,28 +304,10 @@
  68184,-0.2090342\PG=C01 [X(C1H2Cl2)]\\@
 
 
- A ROPE OVER THE TOP OF A FENCE HAS THE SAME LENGTH ON EACH SIDE.
- WEIGHS 1/3 POUND PER FOOT.  ON ONE END HANGS A MONKEY HOLDING A
- BANANA, AND ON THE OTHER END A WEIGHT EQUAL TO THE WEIGHT
- OF THE MONKEY.  THE BANANA WEIGHS TWO OUNCES PER INCH.
- THE ROPE IS AS LONG AS THE AGE OF THE MONKEY, 
- AND THE WEIGHT OF THE MONKEY (IN OUNCES) IS AS MUCH
- AS THE AGE OF THE MONKEY'S MOTHER.  THE COMBINED AGES OF MONKEY
- AND MOTHER ARE THIRTY YEARS.  HALF THE WEIGHT OF THE MONKEY,
-  PLUS THE WEIGHT OF THE BANANA, IS ONE FOURTH AS MUCH AS THE WEIGHT
- OF THE WEIGHT AND THE ROPE.
- THE MONKEY'S MOTHER IS HALF AS OLD AS THE MONKEY WILL BE
- WHEN IT IS 3 TIMES AS OLD AS ITS MOTHER WAS WHEN
- SHE WAS HALF AS OLD AS THE MONKEY WILL BE WHEN IT IS
- AS OLD AS ITS MOTHER WILL BE WHEN SHE IS 4 TIMES AS
- OLD AS THE MONKEY WAS WHEN IT WAS TWICE AS OLD AS 
- ITS MOTHER WAS WHEN SHE WAS ONE THIRD AS OLD AS THE
- MONKEY WAS WHEN IT WAS AS OLD AS ITS MOTHER WAS WHEN 
- SHE WAS 3 TIMES AS OLD AS THE MONKEY WAS WHEN IT WAS AS OLD AS ITS
- MOTHER WAS WHEN SHE WAS 3 TIMES AS OLD AS THE MONKEY 
- WAS WHEN IT WAS ONE FOURTH WAS OLD AS IT IS NOW.
+ IT IS DOUBTED WHETHER A MAN EVER BRINGS HIS FACULTIES TO BEAR WITH THEIR FULL FORCE
+ ON A SUBJECT UNTIL HE WRITES UPON IT.
 
- HOW LONG IS THE BANANA?
- Job cpu time:       0 days  0 hours  1 minutes  8.7 seconds.
+                          -- CICERO
+ Job cpu time:       0 days  0 hours  1 minutes  7.0 seconds.
  File lengths (MBytes):  RWF=    135 Int=      0 D2E=      0 Chk=      4 Scr=      2
- Normal termination of Gaussian 09 at Thu Jan 11 15:53:05 2018.
+ Normal termination of Gaussian 09 at Wed Mar 28 14:02:26 2018.

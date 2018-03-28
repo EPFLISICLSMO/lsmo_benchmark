@@ -1,6 +1,6 @@
 %NprocShared=16
 %Chk=gauss.chk
-%Mem=110GB
+%Mem=50GB
 #n CCSD-T/Def2TZVPP 
 
 Dichloromethane scf

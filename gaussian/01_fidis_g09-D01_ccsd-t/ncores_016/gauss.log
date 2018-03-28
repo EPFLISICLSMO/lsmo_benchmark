@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=/ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/g09
  Initial command:
- /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe "/scratch/ongari/lsmo_benchmark/gaussian/01_fidis_g09-D01_ccsd-t/ncores_016/Gau-13862.inp" -scrdir="/scratch/ongari/lsmo_benchmark/gaussian/01_fidis_g09-D01_ccsd-t/ncores_016/"
- Entering Link 1 = /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe PID=     13863.
+ /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe "/scratch/ongari/lsmo_benchmark/gaussian/01_fidis_g09-D01_ccsd-t/ncores_016/Gau-14613.inp" -scrdir="/scratch/ongari/lsmo_benchmark/gaussian/01_fidis_g09-D01_ccsd-t/ncores_016/"
+ Entering Link 1 = /ssoft/spack/external/gaussian/g09-D.01/intel-sse4.2/g09/l1.exe PID=     14614.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -74,12 +74,12 @@
  
  ******************************************
  Gaussian 09:  ES64L-G09RevD.01 24-Apr-2013
-                11-Jan-2018 
+                28-Mar-2018 
  ******************************************
  %NprocShared=16
  Will use up to   16 processors via shared memory.
  %Chk=gauss.chk
- %Mem=110GB
+ %Mem=50GB
  -------------------
  #n CCSD-T/Def2TZVPP
  -------------------
@@ -181,7 +181,7 @@
  **** Warning!!: The largest alpha MO coefficient is  0.13481782D+02
 
  Semi-Direct transformation.
- ModeAB=           2 MOrb=            10 LenV=   14763340242
+ ModeAB=           2 MOrb=            10 LenV=    6710276562
  LASXX=     10881300 LTotXX=    10881300 LenRXX=    10881300
  LTotAB=    11124850 MaxLAS=    17427960 LenRXY=    17427960
  NonZer=    21762600 LenScr=    33030144 LnRSAI=           0
@@ -272,14 +272,14 @@
  **********************
  DD1Dir will call FoFMem   1 times, MxPair=       110
  NAB=    55 NAA=     0 NBB=     0.
- DE(Corr)= -0.59463533     E(CORR)=     -958.65566175     Delta=-8.20D-09
+ DE(Corr)= -0.59463533     E(CORR)=     -958.65566175     Delta=-8.17D-09
  NORM(A)=   0.11104664D+01
  Largest amplitude= 3.16D-02
  T4(AAA)= -0.72487625D-03
  T4(AAB)= -0.12356625D-01
  T5(AAA)=  0.20709647D-04
  T5(AAB)=  0.21301295D-03
- Time for triples=      300.60 seconds.
+ Time for triples=      279.18 seconds.
  T4(CCSD)= -0.26163002D-01
  T5(CCSD)=  0.46744520D-03
  CCSD(T)= -0.95868135731D+03
@@ -376,7 +376,7 @@
  ZZZY=              0.0000 XXYY=            -69.2656 XXZZ=            -68.8893 YYZZ=            -17.2158
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.0000
  N-N= 1.344677104039D+02 E-N=-2.548394391531D+03  KE= 9.579219754954D+02
- 1\1\GINC-F030\SP\RCCSD(T)-FC\def2TZVPP\C1H2Cl2\ONGARI\11-Jan-2018\0\\#
+ 1\1\GINC-F387\SP\RCCSD(T)-FC\def2TZVPP\C1H2Cl2\ONGARI\28-Mar-2018\0\\#
  n CCSD-T/Def2TZVPP\\Dichloromethane scf\\0,1\C,0,-1.07673,1.09508,0.08
  555\Cl,0,0.70112,1.11024,0.0691\Cl,0,-1.69042,2.22628,-1.14123\H,0,-1.
  43992,0.0715,-0.14064\H,0,-1.43992,1.40336,1.08746\\Version=ES64L-G09R
@@ -385,11 +385,11 @@
  8\CCSD(T)=-958.6813573\RMSD=6.776e-09\PG=C01 [X(C1H2Cl2)]\\@
 
 
-      LET US REMEMBER, PLEASE, THAT THE SEARCH FOR THE CONSTITUTION
-      OF THE WORLD IS ONE OF THE GREATEST AND NOBLEST PROBLEMS PRESENTED 
-      BY NATURE.
-
-                                                  -- GALILEO
- Job cpu time:       0 days  0 hours 21 minutes  9.6 seconds.
+ THOSE WHO TRY TO PASS CHEMISTRY OFF AS A NEW SCIENCE
+ SHOW HOW LITTLE KNOWLEDGE THEY HAVE OF THE CHARACTER
+ AND LITERATURE OF THE ANCIENTS.
+   -- NICOLAS LEFEVRE
+ "COURS DE CHYMIE" J.-N.LELOUP, PARIS, 1751
+ Job cpu time:       0 days  0 hours 20 minutes 22.4 seconds.
  File lengths (MBytes):  RWF=   1660 Int=      0 D2E=      0 Chk=      3 Scr=      2
- Normal termination of Gaussian 09 at Thu Jan 11 15:52:27 2018.
+ Normal termination of Gaussian 09 at Wed Mar 28 14:00:58 2018.

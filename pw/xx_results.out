@@ -14,3 +14,11 @@
 02_daint_espresso-6.1_CrayIntel/ncores_128/slurm-5507825.out:128_cpus 47 seconds
 02_daint_espresso-6.1_CrayIntel/ncores_192/slurm-5507826.out:192_cpus 43 seconds
 02_daint_espresso-6.1_CrayIntel/ncores_256/slurm-5507827.out:256_cpus 43 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_008/slurm-444753.out:008_cpus 120 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_016/slurm-444754.out:016_cpus 72 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_032/slurm-444755.out:032_cpus 47 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_064/slurm-444756.out:064_cpus 38 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_096/slurm-444757.out:096_cpus 42 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_128/slurm-444758.out:128_cpus 38 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_192/slurm-444759.out:192_cpus 36 seconds
+03_gacrux_espresso-6.1_intel-mpi/ncores_256/slurm-444760.out:256_cpus 39 seconds
