@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-coresxcpu=36     #to adjust according to the machine
+coresxcpu=28     #to adjust according to the machine
 rm -rf "${0%.*}" #remove pre-existing dir
 mkdir  "${0%.*}" #make a dir with the same name as the executable
 cd "${0%.*}"
@@ -22,9 +22,7 @@ cat > run.slurm << EOF
 #SBATCH --nodes=$nnodes
 #SBATCH --ntasks=$ncores
 #SBATCH --time=00:30:00
-#SBATCH --partition=parallel
-#SBATCH --constraint=E5v4
-
+#SBATCH --constraint=s6g1
 
 source /ssoft/spack/bin/slmodules.sh -r deprecated   
 module load intel
