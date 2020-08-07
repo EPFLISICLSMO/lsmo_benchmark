@@ -61,3 +61,12 @@
 08_fidis_cp2k-5.1_intel-mpi/ncores_128/slurm-444898.out:128_cpus 35 seconds
 08_fidis_cp2k-5.1_intel-mpi/ncores_192/slurm-444899.out:192_cpus 38 seconds
 08_fidis_cp2k-5.1_intel-mpi/ncores_256/slurm-444900.out:256_cpus 33 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_008/slurm-1218454.out:008_cpus 144 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_016/slurm-1218455.out:016_cpus 87 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_032/slurm-1218456.out:032_cpus 66 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_064/slurm-1218457.out:064_cpus 39 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_096/slurm-1218458.out:096_cpus 35 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_128/slurm-1218459.out:128_cpus 31 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_192/slurm-1218460.out:192_cpus 32 seconds
+09_helvetios_cp2k-5.1_intel-mpi/ncores_256/slurm-1218461.out:256_cpus 28 seconds
+
